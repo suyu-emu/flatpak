@@ -18,7 +18,7 @@
     <keyword>switch</keyword>
     <keyword>emulator</keyword>
   </keywords>
-  <url type="homepage">https://yuzu-emu.org/</url>
+	<url type="homepage">https://suyu.dev/</url>
 	<url type="bugtracker">https://gitlab.com/suyu-emu/suyu/-/issues</url>
   <!-- <url type="faq">https://yuzu-emu.org/wiki/faq/</url> -->
   <!-- <url type="help">https://yuzu-emu.org/wiki/home/</url> -->
