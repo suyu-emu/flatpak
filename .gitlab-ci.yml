@@ -2,7 +2,7 @@ variables:
   # Application id of the app, should be same as id used in flatpak manifest and MetaInfo
   APP_ID: org.suyu_emu.suyu
   # Location of the flatpak manifest, root of git repository
-  MANIFEST_PATH: $CI_PROJECT_DIR/${APP_ID}.yaml
+  MANIFEST_PATH: $CI_PROJECT_DIR/${APP_ID}.json
   # Name of flatpak bundle
   BUNDLE: "${APP_ID}.flatpak"
   # Docker image to use
