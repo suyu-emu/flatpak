@@ -1,7 +1,7 @@
 [Flatpak Ref]
 Title=org.suyu_emu.suyu Flatpak
 Name=org.suyu_emu.suyu
-Branch=dev
+Branch=master
 Url=https://suyu-emu.gitlab.io/linux-package-sources/flatpak
 SuggestRemoteName=suyu-flatpak
 Homepage=https://suyu.dev
