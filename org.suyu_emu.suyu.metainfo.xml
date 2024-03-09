@@ -20,7 +20,7 @@
   </keywords>
 	<url type="homepage">https://suyu.dev/</url>
 	<url type="bugtracker">https://gitlab.com/suyu-emu/suyu/-/issues</url>
-  <!-- <url type="faq">https://yuzu-emu.org/wiki/faq/</url> -->
+  <url type="faq">https://gitlab.com/suyu-emu/suyu/-/wikis/FAQ</url>
   <!-- <url type="help">https://yuzu-emu.org/wiki/home/</url> -->
   <!-- <url type="donation">https://yuzu-emu.org/donate/</url> -->
   <!-- <url type="translate">https://www.transifex.com/yuzu-emulator/yuzu/</url> -->
@@ -29,8 +29,8 @@
   <!-- <url type="contribute">https://github.com/yuzu-emu/yuzu/wiki/Contributing#contributing</url> -->
   <launchable type="desktop-id">org.suyu_emu.suyu.desktop</launchable>
   <provides>
-    <binary>yuzu</binary>
-    <binary>yuzu-cmd</binary>
+    <binary>suyu</binary>
+    <binary>suyu-cmd</binary>
   </provides>
   <requires>
     <memory>8192</memory>
@@ -39,15 +39,15 @@
     <memory>16384</memory>
   </recommends>
   <project_license>GPL-3.0-or-later</project_license>
-  <developer_name>yuzu Emulator Team</developer_name>
+  <developer_name>suyu Emulator Team</developer_name>
   <content_rating type="oars-1.0"/>
-  <screenshots>
-    <screenshot type="default"><image>https://raw.githubusercontent.com/yuzu-emu/yuzu-emu.github.io/master/images/screenshots/001-Super%20Mario%20Odyssey%20.png</image></screenshot>
-    <screenshot><image>https://raw.githubusercontent.com/yuzu-emu/yuzu-emu.github.io/master/images/screenshots/004-The%20Legend%20of%20Zelda%20Skyward%20Sword%20HD.png</image></screenshot>
-    <screenshot><image>https://raw.githubusercontent.com/yuzu-emu/yuzu-emu.github.io/master/images/screenshots/007-Pokemon%20Sword.png</image></screenshot>
-    <screenshot><image>https://raw.githubusercontent.com/yuzu-emu/yuzu-emu.github.io/master/images/screenshots/010-Hyrule%20Warriors%20Age%20of%20Calamity.png</image></screenshot>
-    <screenshot><image>https://raw.githubusercontent.com/yuzu-emu/yuzu-emu.github.io/master/images/screenshots/039-Pok%C3%A9mon%20Mystery%20Dungeon%20Rescue%20Team%20DX.png.png.png</image></screenshot>
-  </screenshots>
+  <!-- <screenshots> -->
+  <!--   <screenshot type="default"><image>https://raw.githubusercontent.com/yuzu-emu/yuzu-emu.github.io/master/images/screenshots/001-Super%20Mario%20Odyssey%20.png</image></screenshot> -->
+  <!--   <screenshot><image>https://raw.githubusercontent.com/yuzu-emu/yuzu-emu.github.io/master/images/screenshots/004-The%20Legend%20of%20Zelda%20Skyward%20Sword%20HD.png</image></screenshot> -->
+  <!--   <screenshot><image>https://raw.githubusercontent.com/yuzu-emu/yuzu-emu.github.io/master/images/screenshots/007-Pokemon%20Sword.png</image></screenshot> -->
+  <!--   <screenshot><image>https://raw.githubusercontent.com/yuzu-emu/yuzu-emu.github.io/master/images/screenshots/010-Hyrule%20Warriors%20Age%20of%20Calamity.png</image></screenshot> -->
+  <!--   <screenshot><image>https://raw.githubusercontent.com/yuzu-emu/yuzu-emu.github.io/master/images/screenshots/039-Pok%C3%A9mon%20Mystery%20Dungeon%20Rescue%20Team%20DX.png.png.png</image></screenshot> -->
+  <!-- </screenshots> -->
   <releases>
     <release version="mainline-0-1734" date="2024-03-04"/>
     <release version="mainline-0-1733" date="2024-03-03"/>
