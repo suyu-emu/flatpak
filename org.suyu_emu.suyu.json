@@ -260,6 +260,32 @@
             ]
         },
         {
+            "name": "rapidjson",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_BUILD_TYPE=None",
+                "-DRAPIDJSON_HAS_STDSTRING=ON",
+                "-DRAPIDJSON_BUILD_CXX11=ON"
+            ],
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/Tencent/rapidjson/archive/v1.1.0/rapidjson-1.1.0.tar.gz",
+                    "sha256": "bf7ced29704a1e696fbccf2a2b4ea068e7774fa37f6d7dd4039d0787f8bed98e",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "stable-only": true,
+                        "versions": {
+                            "=": "1.1.0"
+                        },
+                        "project-id": 7422,
+                        "url-template": "https://github.com/Tencent/rapidjson/archive/v$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "suyu",
             "buildsystem": "cmake-ninja",
             "builddir": true,
@@ -267,17 +293,18 @@
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON",
                 "-DENABLE_QT_TRANSLATION=ON",
-                "-DYUZU_ENABLE_COMPATIBILITY_REPORTING=ON",
+                "-DSUYU_ENABLE_COMPATIBILITY_REPORTING=ON",
                 "-DENABLE_COMPATIBILITY_LIST_DOWNLOAD=OFF",
-                "-DYUZU_USE_QT_WEB_ENGINE=ON",
-                "-DYUZU_USE_BUNDLED_FFMPEG=ON",
+                "-DSUYU_USE_QT_WEB_ENGINE=ON",
+                "-DSUYU_USE_BUNDLED_FFMPEG=ON",
                 "-DBUILD_TAG=dev",
+								"-USE_DISCORD_PRESENCE=ON",
                 "-DBUILD_REPOSITORY=suyu-emu/suyu"
             ],
             "build-options": {
                 "env": {
-                    "TITLEBARFORMATIDLE": "suyu | {}-flatpak",
-                    "TITLEBARFORMATRUNNING": "suyu | {}-flatpak | {}"
+                    "TITLEBARFORMATIDLE": "suyu | dev-flatpak",
+                    "TITLEBARFORMATRUNNING": "suyu | dev-flatpak | {}"
                 },
                 "arch": {
                     "aarch64": {
