@@ -300,7 +300,7 @@
                 "-DSUYU_USE_QT_WEB_ENGINE=ON",
                 "-DSUYU_USE_BUNDLED_FFMPEG=ON",
                 "-DBUILD_TAG=dev",
-								"-USE_DISCORD_PRESENCE=ON",
+								"-DUSE_DISCORD_PRESENCE=ON",
                 "-DBUILD_REPOSITORY=suyu-emu/suyu"
             ],
             "build-options": {
