@@ -19,6 +19,7 @@ stages:
   - build
   - deploy
 
+
 # This will check for updates using external data checker and send PRs to the repo
 update-sources:
   stage: setup
@@ -52,7 +53,13 @@ flatpak:
   variables:
     # Stable Flathub repo
     RUNTIME_REPO: "https://flathub.org/repo/flathub.flatpakrepo"
+  cache:
+    paths:
+      - ccache/
   before_script:
+    - mkdir -p ccache
+    - export CCACHE_BASEDIR=${PWD}
+    - export CCACHE_DIR=${PWD}/ccache
     # Sets up the stable Flathub repository for dependencies
     - flatpak remote-add --user --if-not-exists flathub ${RUNTIME_REPO}
   script:
