@@ -305,8 +305,8 @@
             ],
             "build-options": {
                 "env": {
-                    "TITLEBARFORMATIDLE": "suyu | dev-flatpak",
-                    "TITLEBARFORMATRUNNING": "suyu | dev-flatpak | {}"
+                    "TITLEBARFORMATIDLE": "suyu | {}",
+                    "TITLEBARFORMATRUNNING": "suyu | {} | {}"
                 },
                 "arch": {
                     "aarch64": {
