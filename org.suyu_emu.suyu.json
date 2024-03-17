@@ -304,10 +304,6 @@
                 "-DBUILD_REPOSITORY=suyu-emu/suyu"
             ],
             "build-options": {
-                "env": {
-                    "TITLEBARFORMATIDLE": "suyu | {}",
-                    "TITLEBARFORMATRUNNING": "suyu | {} | {}"
-                },
                 "arch": {
                     "aarch64": {
                         "config-opts": [
